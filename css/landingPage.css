@@ -125,7 +125,7 @@ h4{
     width: 430px;
     height: 430px;
 }
-.content-for-you .image .border{
+.content-for-you .image .boxs{
     border: none;
     border: 3px solid #EFC81A;
     margin-top: -400px;
@@ -285,12 +285,45 @@ footer p{
     padding-right: 30px;
 }
 @media screen and (max-width: 768px){
+    .navbar .primary-menu{
+        width: 40%;
+    }
     img{
         height: 100%;
         width: 100%;
     }
     .carousel-caption{
         margin-top: 20px;
+    }
+    .background .right img{
+        margin-right: 300px;
+        height: 0px;
+        width: 0px;
+    }
+    .content-for-you .image img{
+        width: 0px;
+        height: 0px;
+    }
+    .content-for-you .image .boxs{
+        border: none;
+        border: 0px solid;
+        margin-top: -400px;
+        margin-left: 30px;
+        width: 430px;
+        height: 430px;
+    }
+    .content-new .image img{
+        width: 0px;
+        height: 0px;
+    }
+    .content-new .image .border{
+        border: none;
+        border: 0px solid;
+        background-color: white;
+        margin-top: -460px;
+        margin-left: -130px;
+        width: 0px;
+        height: 0px;
     }
 }
 
