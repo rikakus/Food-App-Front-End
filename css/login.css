@@ -1,0 +1,151 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../assets/font/AirbnbCereal_W_Md.otf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.login{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.login .image{
+    height: 100vh;
+    background-image: url('../assets/images/register.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+    height: 100vh;
+    width: 32%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image::after{
+    content: "";
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(239, 200, 26, 0.8);
+}
+.login .logo{
+    z-index: 99;
+    height: 300px;
+    width: 200px;
+    background-image: url("../assets/images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+}
+.login .jumbotron{
+    height: 100vh;
+    position: relative;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login .jumbotron h3{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family: airbnb;
+    color: #EFC81A;
+}
+.login .jumbotron h6{
+    font-family: airbnb;
+    color: #8692A6;
+    font-size: medium;
+}
+.login .jumbotron .form-group{
+    padding-top: 10px;
+    margin-left: -30px;
+}
+.login .jumbotron .form-group .title{
+    font-family: airbnb;
+    color: #696F79;
+    margin: 9px;
+}
+.login .jumbotron .form-group .input{
+    border: none;
+    border: 1px solid #aaaaaa;
+    font-family: airbnb;
+    margin-left: 9px;
+    height: 45px;
+    width: 350px;
+    border-radius: 3px;
+}
+.login .jumbotron .form-group .input:focus{
+    outline-color: #EFC81A;
+}
+.login .check{
+    margin-top: 18px;
+    padding-right: 133px;
+    color: #8692A6;
+    display: flex;
+    flex-direction: row;
+}
+.login .check .checkbox{
+    accent-color: #EFC81A;
+    transform: scale(1.6);
+}
+.login .check .text{
+    font-family: airbnb;
+    margin-top: -2px;
+    margin-left: 10px;
+}
+.login .button{
+    border: none;
+    border: 1px solid #aaaaaa;
+    font-family: airbnb;
+    position: relative;
+    margin-left: -25px;
+    margin-top: 25px;
+    height: 45px;
+    width: 350px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #EFC81A;
+}
+.login .button:focus{
+    outline-color: #EFC81A;
+    border: #EFC81A;
+}
+.login .forget{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.login .forget a{
+    font-family: airbnb;
+    text-decoration: none;
+    color: #999999;
+    margin-left: 210px;
+    font-size: smaller;
+}
+.login .txt{
+    font-family: airbnb;
+    color: #8692A6;
+}
+.login .register a{
+    font-family: airbnb;
+    color: #EFC81A;
+    text-decoration: none;
+}
+@media screen and (max-width: 550px){
+    .login .image{
+        display: none;
+    }
+    .login .jumbotron{
+        width: 100%;
+    }
+}

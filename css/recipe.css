@@ -1,0 +1,220 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../assets/font/AirbnbCereal_W_Md.otf');
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 42px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar ul li{
+    padding: 10px 35px;
+}
+.navbar ul li a{
+    font-family: airbnb;
+    text-decoration: none;
+    color: #2E266F;
+}
+ul{
+    font-family: airbnb;
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+.title{
+    font-size: 60px;
+    text-align: center;
+    color:#2E266F;
+    margin-bottom: 50px;
+}
+.content-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.container .ingridients{
+    margin-bottom: 74px;
+}
+.ingridients ul li{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
+    width: 300px;
+    height: 80px; 
+    background-color: #EFC81A;
+    align-items: center;
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: #bd9f1a;
+}
+.card img{
+    width: 26px;
+    height: 26px;
+}
+textarea{
+    font-family: airbnb;
+    display: block;
+    border-radius: 6px;
+    margin: 100px auto 75px;
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    border: none;
+    background-color: #F6F5F4;
+    margin-bottom: 40px;
+    color: #666666;
+    resize: none;
+}
+textarea:focus{
+    outline: none;
+}
+
+.container form button{
+    font-family: airbnb;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 426px;
+    height: 64px;
+    background-color: #EFC81A;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+.container form button:hover{
+    background-color: #bd9f1a;
+}
+.comment{
+    margin-bottom: 100px;
+    display: flex;
+}
+.comment .comment-text{
+    margin-left: 25px;
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: #EFC81A;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+footer h1{
+    font-size:50px;
+    margin-bottom: 50px;
+    color: #2E266F;
+}
+
+footer p{
+    font-size: 24px;
+    margin-bottom: 100px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.content ul li{
+    color: #707070;
+    font-size: 16px;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+
+/* media screen on mobile*/
+@media screen and (max-width: 600px){
+
+
+    .container{
+        padding-left: 10px;
+    }
+
+    .header{
+        padding-left: 10px;
+    }
+
+    .header ul li{
+        padding-right: 10px;
+    }
+
+    .title{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .content-img img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .container .ingridients{
+        margin-bottom: 50px;
+    }
+
+    .ingridients ul li{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .card{
+        margin-bottom: 30px;
+        width: 200px;
+        height: 60px; 
+    }
+
+    .card img{
+        margin: 0 auto;
+        width: 20px;
+        height: 20px;
+    }
+
+    textarea{
+        margin: 50px auto 50px;
+        padding: 10px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .container form button{
+        width: 300px;
+        height: 50px;
+        margin-bottom: 50px;
+    }
+
+    .comment{
+        margin-bottom: 50px;
+    }
+
+    .footer{
+        padding:0px;
+    }
+
+    .footer ul{
+
+        padding-right: 50px;
+    }
+
+    .content ul li{
+        padding-right: 20px;
+    }
+}

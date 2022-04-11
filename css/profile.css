@@ -1,0 +1,139 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../assets/font/AirbnbCereal_W_Md.otf');
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.navbar ul{
+    font-family: airbnb;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar ul li{
+    padding: 10px 35px;
+}
+.navbar ul li a{
+    font-family: airbnb;
+    text-decoration: none;
+    color: #2E266F;
+}
+h2{
+    font-family: airbnb;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.profil-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.profil-desc .img{
+    background-image: url('../assets/images/profile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+.list-action ul li{
+    font-family: airbnb;
+    display: inline-block;
+    padding-right: 50px;
+    color: #2E266F;
+    font-size: 24px;
+}
+.list-action ul li a{
+    text-decoration: none;
+    color: #666666;
+}
+.list-action ul li .active{
+    color:#000;
+    font-weight: 500;
+}
+.container .list-recipe{
+    margin-bottom: 25px;
+}
+.carousel-caption{
+    font-family: airbnb;
+    font-size: 26px;
+    font-weight: 500;
+    width: 120px;
+    text-align: left;
+    left: 20px;
+    top: 40%;
+    color: #ffffff;
+}
+.card{
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #EFC81A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer ul{
+    font-family: airbnb;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer ul li a{
+    padding-right: 25px;
+    color: #707070;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+footer ul li a:hover{
+    color: #2E266F;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding-left: 10px;
+    }
+
+    .header{
+        padding-left: 10px;
+    }
+
+    .header ul li{
+        padding-right: 10px;
+    }
+
+    .profil-desc{
+        margin-bottom: 20px;
+    }
+
+    .profil-desc img{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 25px;
+    }
+
+    .list-action ul li{
+        padding-right: 10px;
+    }
+
+    .list-action ul li a{
+        font-size: 18px;
+    }
+    footer ul{
+        justify-content: space-around;
+    }
+
+    footer ul li a{
+        padding-right: 0px;
+    }
+    .carousel-caption{
+        top: 50%;
+    }
+}

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../assets/font/AirbnbCereal_W_Md.otf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar ul li{
+    padding: 0px 35px;
+}
+.navbar ul li a{
+    font-family: airbnb;
+    text-decoration: none;
+    color: #2E266F;
+}
+.content ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content ul li{
+    height: 10px;
+}
+.content ul li .inputImage{
+    height: 170px;
+    margin: 10px;
+    width: 1100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F6F5F4;
+    border-style: none;
+}
+.content .logo{
+    width: 1170px;
+    margin-top: -160px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .logo .l{
+    height: 60px;
+    width: 60px;
+    background-image: url('../assets/images/logoPhoto.svg');
+}
+.content .logo .txt{
+    font-family: airbnb;
+    color: #666666;
+}
+.content ul li .inputTitle{
+    font-family: airbnb;
+    height: 10px;
+    width: 1100px;
+    margin-top: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F6F5F4;
+    border-style: none;
+}
+.content ul li .inputIngredients{
+    font-family: airbnb;
+    height: 115px;
+    width: 1100px;
+    margin-top: 273px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F6F5F4;
+    border-style: none;
+}
+.content ul li .inputVideo{
+    font-family: airbnb;
+    height: 30px;
+    width: 1100px;
+    margin-top: 430px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F6F5F4;
+    border-style: none;
+}
+.content ul li .button{
+    font-family: airbnb;
+    margin-top: 510px;
+    height: 40px;
+    width: 400px;
+    size: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #EFC81A;
+    border-style: none;
+}
+footer{
+    font-family: airbnb;
+    margin-top: 610px;
+    width: 100%;
+    background-color: #EFC81A;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+footer h1{
+    font-size:50px;
+    margin-bottom: 50px;
+    color: #2E266F;
+}
+.footer-content ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer p{
+    font-size: 24px;
+    margin-bottom: 100px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.footer-content ul li{
+    color: #707070;
+    font-size: 16px;
+    padding-right: 30px;
+}
+@media screen and (max-width: 768px){
+
+}

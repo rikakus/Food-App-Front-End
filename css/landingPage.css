@@ -1,0 +1,296 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../assets/font/AirbnbCereal_W_Md.otf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+}
+.navbar .primary-menu{
+    width: 80%;
+}
+.navbar .primary-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar .primary-menu ul li{
+    padding: 0px 35px;
+}
+.navbar .primary-menu ul li a{
+    font-family: airbnb;
+    text-decoration: none;
+    color: #2E266F;
+}
+.navbar .secondary-menu{
+    width: 20%;
+}
+.navbar .secondary-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar .secondary-menu ul .icon-user{
+    background-image: url('../assets/images/icon-user.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+.navbar .secondary-menu ul .login a{
+    margin-left: 5px;
+    font-family: airbnb;
+    text-decoration: none;
+    color: #2E266F;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.background .left{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.background .left h1{
+    font-family: airbnb;
+    color: #2E266F;
+    width: 330px;
+}
+.background .left .form-search{
+    width: 400px;
+    background-color: #EFEFEF;
+    display: flex;
+    border-radius: 15px;
+}
+.background .left .form-search .icon{
+    background-image: url('../assets/images/icon-lp.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+.background .left .form-search .input{
+    font-family: airbnb;
+    background-color: #EFEFEF;
+    border-style: none;
+    width: 400px;
+    border-radius: 15px;
+}
+.background .left .form-search .input:focus{
+    outline-style: none;
+}
+.background .right{
+    background-color: #EFC81A;
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background .right img{
+    margin-right: 300px;
+    height: 300px;
+    width: 300px;
+}
+h4{
+    font-family: airbnb;
+    color: #3F3A3A;
+    height: 40px;
+    border-left: 10px solid #EFC81A;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.content-for-you{
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.content-for-you .image{
+    width: 50%;
+}
+.content-for-you .image img{
+    width: 430px;
+    height: 430px;
+}
+.content-for-you .image .border{
+    border: none;
+    border: 3px solid #EFC81A;
+    margin-top: -400px;
+    margin-left: 30px;
+    width: 430px;
+    height: 430px;
+}
+.content-for-you .form-desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-for-you .form-desc ul h3{
+    font-family: airbnb;
+    width: 330px;
+}
+.content-for-you .form-desc ul .line{
+    margin-top: 10px;
+    background-color: #6f6a40;
+    border: 1px solid #6F6A40;
+    width: 150px;
+}
+.content-for-you .form-desc ul h6{
+    font-family: airbnb;
+    width: 350px;
+    margin-top: 20px;
+}
+.content-for-you .form-desc ul .button{
+    text-decoration: none;
+    border: none;
+    font-family: airbnb;
+    margin-top: 20px;
+    height: 45px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #EFC81A;
+}
+.content-for-you .form-desc ul .button:hover{
+    background-color: #bd9f1a;
+}
+.content-new{
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.content-new .image{
+    width: 50%;
+}
+.content-new .image img{
+    width: 430px;
+    height: 430px;
+}
+.content-new .image .border{
+    border: none;
+    border: 3px solid #EFC81A;
+    background-color: #EFC81A;
+    margin-top: -460px;
+    margin-left: -130px;
+    width: 330px;
+    height: 430px;
+}
+.content-new .form-desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-new .form-desc ul h3{
+    font-family: airbnb;
+    width: 330px;
+}
+.content-new .form-desc ul .line{
+    margin-top: 10px;
+    background-color: #6f6a40;
+    border: 1px solid #6F6A40;
+    width: 150px;
+}
+.content-new .form-desc ul h6{
+    font-family: airbnb;
+    width: 350px;
+    margin-top: 20px;
+}
+.content-new .form-desc ul .button{
+    text-decoration: none;
+    border: none;
+    font-family: airbnb;
+    margin-top: 20px;
+    height: 45px;
+    width: 150px;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 5px;
+    background-color: #EFC81A;
+}
+.content-new .form-desc ul .button:hover{
+    background-color: #bd9f1a;
+}
+.content-popular{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.container .list-recipe{
+    margin-bottom: 25px;
+}
+img{
+    height: 330px;
+    width: 100%;
+}
+.carousel-caption{
+    font-family: airbnb;
+    width: 120px;
+    text-align: left;
+    margin-top: 90px;
+    left: 20px;
+    top: 40%;
+    color: #3F3A3A;
+}
+.card{
+    margin-bottom: 20px;
+}
+
+footer{
+    font-family: airbnb;
+    margin-top: 60px;
+    width: 100%;
+    background-color: #EFC81A;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+footer h1{
+    font-size:50px;
+    margin-bottom: 50px;
+    color: #2E266F;
+}
+.footer-content ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer p{
+    font-size: 24px;
+    margin-bottom: 100px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.footer-content ul li{
+    color: #707070;
+    font-size: 16px;
+    padding-right: 30px;
+}
+@media screen and (max-width: 768px){
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .carousel-caption{
+        margin-top: 20px;
+    }
+}
+

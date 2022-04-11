@@ -1,0 +1,134 @@
+@font-face {
+    font-family: airbnb;
+    src: url('../assets/font/AirbnbCereal_W_Md.otf');
+}
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.background .left{
+    background-color: #EFC81A;
+    width: 5%;
+}
+.background .right{
+    width: 95%;
+}
+.navbar ul{
+    font-family: airbnb;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar ul li{
+    padding: 10px 35px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #2E266F;
+}
+.content{
+    width: 100%;
+    display: flex;
+}
+.content .big{
+    width: 70%;
+    margin-left: 90px;
+}
+.content .big .image{
+    background-image: url('../assets/images/video.jfif');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .big .image .play{
+    background-image: url('../assets/images/play.svg');
+    height: 60px;
+    width: 48px;
+}
+.content .big h1{
+    font-family: airbnb;
+    color: #000000;
+}
+.content .big h6{
+    font-family: airbnb;
+    color: #AAAAAA;
+}
+.content .next h6{
+    font-family: airbnb;
+    margin-left: 30px;
+}
+.content .next ul{
+    list-style: none;
+}
+.content .next ul .video{
+    height: 100px;
+    margin-bottom: 80px;
+}
+.content .next ul .video img{
+    height: 180px;
+}
+.content .next ul .title{
+    width: 70%;
+}
+.content .next ul .title a{
+    text-decoration: none;
+    color: #000000;
+    font-family: airbnb;
+}
+.content .next ul .from{
+    font-family: airbnb;
+    color: #AAAAAA;
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+.content .next ul .from a{
+    font-family: airbnb;
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: small;
+}
+@media screen and (max-width: 768px){
+    .background .left{
+        display: none;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content .big{
+        width: 95%;
+        margin-left: 20px;
+    }
+    .content .big .image{
+        background-image: url('../assets/images/video.jfif');
+        height: 260px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content .next ul .video{
+        height: 100px;
+        margin-bottom: 40px;
+    }
+    .content .next ul .video img{
+        height: 140px;
+    }
+}
